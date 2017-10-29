@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="stylee.css" rel="stylesheet" type="text/css">
+<style>
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css?family=Play');
+
+body {
+margin:0;
+font-family: 'Open Sans',serif;
+
+}
+
+#myInput {
+  background-image: url('img/searchicon.png');
+  background-position: 1px 8px;
+  background-repeat: no-repeat;
+  width: 95%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: -20px;
+}
+
+#myBrand {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.brand td img{
+	 border-radius:50%;
+	 border: 0px solid black;
+    width:150px;
+    height:150px;
+    margin-right: 5px;
+    margin-left: 0px;
+    margin-top: 90px;
+  	box-shadow: 5px 5px 5px #888888;
+}
+
+.brand td img:hover {
+	 margin-bottom: 1px;
+}
+
+
+.brand td a {
+text-decoration: none;
+ display: inline-block;
+text-align:center;
+color: black;
+}
+
+.brand td a:hover{
+color: red;
+}
+</style>
+</head>
+<body>
+
+<div class="nav">
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="#news">Beer</a></li>
+  <li><a href="#news">Wine</a></li>
+  <li><a href="#news">Keg</a></li>
+<li><a href="#news">Beverage</a></li>
+
+ <!--<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Beverage</a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>-->
+  </li>
+  
+</ul>
+</div>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search your Brand.." title="Type your Brand">
+
+<div class="brand">
+<table width="100%" id="myBrand">
+<tr>
+<td><li><a href=""><img src="img/beer1.jpg" alt="Modelo"></a></li></td>
+<td><li><a href=""><img src="img/beer2.jpg" alt="Sierra Nevada"></a></li></td>
+<td><li><a href=""><img src="img/beer3.jpg" alt="Lagunitas"></a></li></td>
+<td><li><a href=""><img src="img/beer4.jpg" alt="Samuel Smith"></a></li></td>
+<td><li><a href=""><img src="img/beer5.jpg" alt="Ommegang"></a></li></td>
+<td><li><a href=""><img src="img/beer6.jpg" alt="Hoegaarden"></a></li></td>
+<td><li><a href=""><img src="img/beer7.jpg" alt="Stella Artois"></a></li></td>
+<td><li><a href=""><img src="img/beer8.jpg" alt="Jeffe"></a></li></td>
+</tr>
+
+<tr>
+<td><li><a href=""><img src="img/beer9.jpg" alt="Beck's"></a></li></td>
+<td><li><a href=""><img src="img/beer10.jpg" alt="Cisco Brewers Nantucket"></a></li></td>
+<td><li><a href=""><img src="img/beer11.jpg" alt="Abita"></a></li></td>
+<td><li><a href=""><img src="img/beer12.jpg" alt="Bell's"></a></li></td>
+<td><li><a href=""><img src="img/beer13.jpg" alt="Wolaver's"></a></li></td>
+<td><li><a href=""><img src="img/beer14.jpg" alt="Goose Island"></a></li></td>
+<td><li><a href=""><img src="img/beer15.jpg" alt="Heineken"></a></li></td>
+<td><li><a href=""><img src="img/beer16.jpg" alt="Corona Extra"></a></li></td>
+</tr>
+
+<tr>
+<td><li><a href=""><img src="img/beer17.jpg" alt="Flying Dog"></a></li></td>
+<td><li><a href=""><img src="img/beer18.jpg" alt="Smuttynose"></a></li></td>
+<td><li><a href=""><img src="img/beer19.jpg" alt="Victory"></a></li></td>
+<td><li><a href=""><img src="img/beer20.jpg" alt="Crabbie's"></a></li></td>
+<td><li><a href=""><img src="img/beer21.jpg" alt="Brooklyn"></a></li></td>
+<td><li><a href=""><img src="img/beer22.jpg" alt="Ballast Point"></a></li></td>
+<td><li><a href=""><img src="img/beer23.jpg" alt="Founders"></a></li></td>
+<td><li><a href=""><img src="img/beer24.jpg" alt="Magic Hat"></a></li></td>
+</tr>
+
+<tr>
+<td><li><a href=""><img src="img/beer25.jpg" alt="Guinness"></a></li></td>
+<td><li><a href=""><img src="img/beer26.jpg" alt="Harpoon"></a></li></td>
+<td><li><a href=""><img src="img/beer27.jpg" alt="RiverHorse"></a></li></td>
+<td><li><a href=""><img src="img/beer28.jpg" alt="Stone Brewing"></a></li></td>
+<td><li><a href=""><img src="img/beer29.jpg" alt="Peak Organic"></a></li></td>
+<td><li><a href=""><img src="img/beer30.jpg" alt="Red Stripe"></a></li></td>
+<td><li><a href=""><img src="img/beer31.jpg" alt="Coors Light"></a></li></td>
+<td><li><a href=""><img src="img/beer32.jpg" alt="Anchor Steam"></a></li></td>
+</tr>
+
+<tr>
+<td><li><a href=""><img src="img/beer33.jpg" alt="Captin Lawrence"></a></li></td>
+<td><li><a href=""><img src="img/beer34.jpg" alt="BlueMoon"></a></li></td>
+<td><li><a href=""><img src="img/beer35.jpg" alt="Samuel Adams"></a></li></td>
+<td><li><a href=""><img src="img/beer36.jpg" alt="Budweiser"></a></li></td>
+<td><li><a href=""><img src="img/beer37.jpg" alt="Smirnoff"></a></li></td>
+<td><li><a href=""><img src="img/beer38.jpg" alt="BluePoint"></a></li></td>
+<td><li><a href=""><img src="img/beer39.jpg" alt="Sapporo"></a></li></td>
+<td><li><a href=""><img src="img/beer40.jpg" alt="Bud Light"></a></li></td>
+</tr>
+
+<tr>
+<td><li><a href=""><img src="img/beer41.jpg" alt="Session Lager"></a></li></td>
+<td><li><a href=""><img src="img/beer42.jpg" alt="Miller HighLife"></a></li></td>
+<td><li><a href=""><img src="img/beer43.jpg" alt="Tecate"></a></li></td>
+<td><li><a href=""><img src="img/beer44.jpg" alt="Olde English 800"></a></li></td>
+<td><li><a href=""><img src="img/beer45.jpg" alt="Rolling Rock"></a></li></td>
+<td><li><a href=""><img src="img/beer46.jpg" alt="Narraganserr"></a></li></td>
+<td><li><a href=""><img src="img/beer47.jpg" alt="PBR"></a></li></td>
+<td><li><a href=""><img src="img/beer48.jpg" alt="SixPoint"></a></li></td>
+
+</tr>
+
+<tr>
+<td><li><a href=""><img src="img/beer49.jpg" alt="Shock Top"></a></li></td>
+</tr>
+
+</table>
+</div>
+<script>
+function myFunction() {
+    var input, filter, table, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myBrand");
+    li = table.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+
+        }
+    }
+}
+</script>
+
+</body>
+</html>
